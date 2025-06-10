@@ -583,6 +583,7 @@
     <Compile Include="Tools.cs" />
     <Compile Include="Utilities\AdaptiveFlyout.cs" />
     <Compile Include="Utilities\EmojiUtilities.cs" />
+    <Compile Include="Utilities\Extensions.cs" />
     <Compile Include="Utilities\MediaTranscoding.cs" />
     <Compile Include="Utilities\NetworkHelper.cs" />
     <Compile Include="Utilities\SwipeOpenHelper.cs" />
@@ -678,6 +679,12 @@
     </PackageReference>
     <PackageReference Include="CommunityToolkit.Mvvm">
       <Version>8.3.2</Version>
+    </PackageReference>
+    <PackageReference Include="DSharpPlus">
+      <Version>4.5.1</Version>
+    </PackageReference>
+    <PackageReference Include="DSharpPlus.Rest">
+      <Version>4.5.1</Version>
     </PackageReference>
     <PackageReference Include="Humanizer">
       <Version>2.8.2</Version>
@@ -1182,18 +1189,6 @@
     <PRIResource Include="Resources\en-GB\AboutSettingsPage.resw" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Libraries\DSharpPlus\DSharpPlus.Rest\DSharpPlus.Rest.csproj">
-      <Project>{c01b8589-13fe-4a6d-b159-6644977f58de}</Project>
-      <Name>DSharpPlus.Rest</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Libraries\DSharpPlus\DSharpPlus.Windows\DSharpPlus.Windows.csproj">
-      <Project>{1b172f49-372a-4f15-8353-9bdaba6e2331}</Project>
-      <Name>DSharpPlus.Windows</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Libraries\DSharpPlus\DSharpPlus\DSharpPlus.csproj">
-      <Project>{0f4b3af7-9320-41ae-82d0-3737949499c7}</Project>
-      <Name>DSharpPlus</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Libraries\MomentSharp\MomentSharp\MomentSharp.csproj">
       <Project>{8a4a933c-c579-4c36-9133-7d6721f99aec}</Project>
       <Name>MomentSharp</Name>

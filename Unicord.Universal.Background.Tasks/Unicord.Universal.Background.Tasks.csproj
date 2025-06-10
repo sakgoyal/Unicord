@@ -127,6 +127,12 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="DSharpPlus.Rest">
+      <Version>4.5.1</Version>
+    </PackageReference>
+    <PackageReference Include="DSharpPlus">
+      <Version>4.5.1</Version>
+    </PackageReference>
     <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform">
       <Version>6.2.14</Version>
     </PackageReference>
@@ -135,14 +141,6 @@
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Libraries\DSharpPlus\DSharpPlus.Rest\DSharpPlus.Rest.csproj">
-      <Project>{c01b8589-13fe-4a6d-b159-6644977f58de}</Project>
-      <Name>DSharpPlus.Rest</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Libraries\DSharpPlus\DSharpPlus\DSharpPlus.csproj">
-      <Project>{0f4b3af7-9320-41ae-82d0-3737949499c7}</Project>
-      <Name>DSharpPlus</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Libraries\MomentSharp\MomentSharp\MomentSharp.csproj">
       <Project>{8a4a933c-c579-4c36-9133-7d6721f99aec}</Project>
       <Name>MomentSharp</Name>
